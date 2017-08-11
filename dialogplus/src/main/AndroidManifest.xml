@@ -1,1 +1,5 @@
-<manifest package="com.orhanobut.dialogplus"/>
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.orhanobut.dialogplus">
+
+    <application />
+</manifest>

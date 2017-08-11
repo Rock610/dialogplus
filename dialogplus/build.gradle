@@ -1,22 +1,8 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.github.dcendents.android-maven'
-
-apply plugin: 'checkstyle'
-
-check.dependsOn('checkstyle')
-
-task checkstyle(type: Checkstyle) {
-  configFile = rootProject.file('checkstyle.xml')
-  source 'src'
-  include '**/*.java'
-  exclude '**/gen/**'
-
-  classpath = files()
-}
 
 android {
   compileSdkVersion 21
-  buildToolsVersion "21.1.2"
+  buildToolsVersion '25.0.0'
 
   defaultConfig {
     minSdkVersion 10
