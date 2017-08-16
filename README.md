@@ -1,4 +1,4 @@
-[old readme]()
+[old readme](https://github.com/orhanobut/dialogplus/blob/master/README.md)
 
 ## useage
 
